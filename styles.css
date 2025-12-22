@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+}
+.bg-image{
+    background-image:url(./image/bgimg.jpg) ;
+    background-size: 40rem 100vh;
+    height:100vh;
+    width: 40rem;
+    background-color: black;
+}
+.odin-logo-img{
+    height:7rem;
+    width:7rem;
+}
+.odin-logo{
+    height:8rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    font-size:4rem;
+    color:white;
+    font-family:'Bitcount Prop Single';
+    background-color: rgb(64 64 64 / 50%);
+}
+.odin-logo-wrapper{
+    width:100%;
+    box-sizing:content-box;
+    padding-top:12rem;
+}
