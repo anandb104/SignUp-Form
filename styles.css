@@ -57,7 +57,9 @@ body{
     flex-direction: column;
     gap:2rem;
     font-size:1rem;
-    background-color:white
+    background-color:white;
+    margin-top: 1rem;
+    margin-bottom:1rem;
 }
 form{
     display:flex;
@@ -179,7 +181,10 @@ input:valid+span::before{
  }
  input{
     border-radius: 5px;
+    font-family:inherit;
+    font-size:100%;
+
  }
- input::placeholder{
-font-family: inherit;
- }
+input:placeholder-shown{
+    font-family:inherit;
+}
